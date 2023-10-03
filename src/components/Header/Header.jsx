@@ -8,8 +8,11 @@ export function Header() {
         <>
             <header className={styles.header}>
 
+              
                 <img src={todoLogo} alt="" />
                 <h1> to<span >do</span></h1>
+              
+
                 
 
             </header>

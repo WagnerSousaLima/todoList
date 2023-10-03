@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.counts {
+   width: 46rem; 
+   height: 1.1875rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+    
+    
+}
+
+.tasksBox {
+    margin-top: 1.5rem;
+    width: 46rem;
+    height: 4.5rem;
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: .75rem;
+
+    border-radius: 8px;
+    border: 1px solid var(--gray-400);
+    background-color: var(--gray--500);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.6);
+
+    
+
+
+}
+
+.tasksComment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+    gap: .75rem;
+}
+
+.tasksComment p {
+    width: 39.5rem;
+    height: 2.5rem;
+
+    
+}
+
+.tasksComment button {
+    width: 1.5rem;
+    height: 1.5rem;
+}

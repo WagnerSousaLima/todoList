@@ -1,5 +1,6 @@
-import styles from './App.module.css';
+
 import { Header } from './components/Header/Header';
+import { InputTasks } from './components/InputTasks/InputTasks';
 
 import './global.css';
 
@@ -11,10 +12,12 @@ export function App() {
     <>
       <Header />
 
-      <div className={styles.wrapper}>
-        <h1>Hello wolrd</h1>
+      < InputTasks />
+
+      
+
         
-     </div>
+    
     </>
   )
 }

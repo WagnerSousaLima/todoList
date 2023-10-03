@@ -1,0 +1,65 @@
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1.6875rem;
+
+  width: 100%;
+  
+
+  gap: 0.5rem;
+}
+
+
+.inputs {
+width: 39.875rem;
+height: 3.375rem;
+display: flex;
+padding: 1rem;
+align-items: center;
+justify-content: center;
+
+border-radius: 8px;
+border: 1px solid var(--gray-700);
+background: var(--gray-500);
+
+color: var(--gray-100);
+
+}
+
+.button {
+  width: 5.625rem;
+  height: 3.25rem;
+
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.5rem;
+
+  border-radius: 8px;
+  background: var(--blue-dark);
+
+  color: var(--gray-100);
+  font-family: 'Inter';
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.225rem;
+
+  cursor: pointer;
+
+  transition: background-color 0.1s;
+
+ 
+}
+
+.button:hover {
+  background: var(--blue);
+}
+
+.tasksList {
+  margin-top: 4.0625rem;
+}

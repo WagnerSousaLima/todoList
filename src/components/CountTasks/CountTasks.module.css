@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+
+.counts {
+   width: 46rem; 
+   height: 1.1875rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+    
+    
+}
+
+.counts span {
+    padding: .125rem .5rem;
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+
+    border-radius: 62.4375rem;
+    color: var(--white);
+    background-color: var(--gray-400);
+
+}
+
+.tarefasCriadas {
+    color: var(--blue);
+
+}
+
+.concluidas {
+    color: var(--purple);
+}

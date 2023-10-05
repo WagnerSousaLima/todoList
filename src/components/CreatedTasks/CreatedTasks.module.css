@@ -6,15 +6,7 @@
     
 }
 
-.counts {
-   width: 46rem; 
-   height: 1.1875rem;
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-end;
-    
-    
-}
+
 
 .tasksBox {
     margin-top: 1.5rem;
@@ -27,7 +19,7 @@
 
     border-radius: 8px;
     border: 1px solid var(--gray-400);
-    background-color: var(--gray--500);
+    background-color: var(--gray-500);
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.6);
 
     
@@ -52,4 +44,23 @@
 .tasksComment button {
     width: 1.5rem;
     height: 1.5rem;
+    background-color: var(--gray-500);
+    border: none;
+    cursor: pointer;
+    align-self: stretch;
+    
 }
+
+.tasksComment button img {
+    background-color: transparent;
+}
+
+/*.trash img:hover {
+    background-color: var(--danger);
+    
+}
+
+.check img:hover {
+    background-color: var(--blue-dark);
+}*/
+

@@ -56,8 +56,13 @@ color: var(--gray-100);
  
 }
 
-.button:hover {
+.button:not(:disabled):hover {
   background: var(--blue);
+}
+
+.button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
 }
 
 .tasksList {

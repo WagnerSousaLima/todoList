@@ -17,14 +17,7 @@ export function App() {
 
       < InputTasks />
 
-
-
-      
-
-        
     
     </>
   )
 }
-
-

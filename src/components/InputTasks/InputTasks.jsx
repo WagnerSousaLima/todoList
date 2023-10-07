@@ -37,6 +37,7 @@ export function InputTasks() {
   }
 
     function handleNewTaskInvalid(event) {
+        console.log('aqui')
         event.target.setCustomValidity('Esse campo é obrigatório!');
     }
 

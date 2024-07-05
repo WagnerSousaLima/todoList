@@ -1,5 +1,5 @@
 <h1 align="center"> TodoList </h1>
-<div align="center">
+<div align="center"> 
   <img alt="Banner Principal" src="src/assets/todolistBanner.png">
 </div>
 
